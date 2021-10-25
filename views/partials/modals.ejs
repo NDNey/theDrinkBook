@@ -1,0 +1,31 @@
+ <!-- Rename Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel"></h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="drinkImg" src="" alt="">
+          <p class="text"></p>
+          <div class="container">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         <form action="/newDrink" method="POST">
+          <input type="text"   class="saveName"   id="exampleFormControlInput1" name="name" >
+          <input type="text" class="saveUrl"     name="img" placeholder="Image Url">
+          <input type="text" class="recipe"   name="recipe" placeholder="Image Url">
+
+          <button type="submit"   class="btn btn-primary">Save changes</button>
+         </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
