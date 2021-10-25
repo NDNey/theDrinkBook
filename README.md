@@ -18,8 +18,8 @@ The Drink Book is a CRUD app that allows users to store their own cocktail recip
 ## How To Use:
   - Fork the repo
   - Clone your forked repo.
-  - Make sure you add a MongoDB url
   - Do 'npm install' in your terminal.
   - Run with 'npm start' in your terminal.
+  - Log in with 'admin@admin.com'  password: 'admin'
 
 
