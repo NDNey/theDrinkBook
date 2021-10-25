@@ -1,5 +1,5 @@
-# Node Social Network
-This CRUD app with user login and authentication allows you to create, update, and delete posts. All uploaded images are stored using Cloudinary. User account information is stored elsewhere in MongoDB.
+# The Drink Book 
+The Drink Book is a CRUD app that allows users to store their own cocktail recipes and Images. Drink recipes are also searchable using thecocktaildb API. Searches recipes from the API can be saved alongside the user’s added recipes. 
 
 <article>
       <div>
